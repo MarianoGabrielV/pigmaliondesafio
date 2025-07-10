@@ -23,12 +23,12 @@ necesarias, siempre y cuando las especifique.
 ## Ejemplos
 
     Ejemplo 1
-Input: nums = [1,4,3,9], requiredSum = 8
-Output: False
+    Input: nums = [1,4,3,9], requiredSum = 8
+    Output: False
 
     Ejemplo 2
-Input: nums = [1,2,4,4], requiredSum = 8
-Output: True
+    Input: nums = [1,2,4,4], requiredSum = 8
+    Output: True
 
 ---
 
