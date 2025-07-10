@@ -4,7 +4,7 @@
 
 # Desafio Tecnico - ¿puede un número X formarse usando la suma de 2 elementos de un array?
 
-# Lenguaje: Python 
+## Lenguaje a utilizar: Python 
 
 ---
 
@@ -91,7 +91,7 @@ Desde terminal, previamente con Python instalado, ejecutar el siguiente comando:
 python pruebas.py
 ```
 
-# Mariano Vergniaud
-# FullStack Developer.
-# 📧 mariano.unla@gmail.com
-# 💼 https://www.linkedin.com/in/marianovergniaud/
+### Mariano Vergniaud
+### FullStack Developer.
+### 📧 mariano.unla@gmail.com
+### 💼 https://www.linkedin.com/in/marianovergniaud/
