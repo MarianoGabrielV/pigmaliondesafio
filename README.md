@@ -55,7 +55,7 @@ Se opto por el desarrollo de **dos versiones independientes** del algoritmo, sig
 - ✅ Fácil de implementar.
 - ❌ Ineficiente en listas grandes (complejidad **O(n²)**).
 
----
+
 
 ## Versión 2: Optimizada
 
@@ -72,13 +72,13 @@ Se opto por el desarrollo de **dos versiones independientes** del algoritmo, sig
 
 Este algoritmo podría utilizarse en sistemas como:
 
-## Control de pagos duplicados en contabilidad
+### Control de pagos duplicados en contabilidad
 Antes de aprobar una transferencia, verificar si ya existen dos pagos anteriores que suman el mismo monto, para evitar fraudes.
 
-## Recomendaciones en e-commerce
+### Recomendaciones en e-commerce
 Detectar combinaciones de productos que sumen exactamente al presupuesto disponible del usuario.
 
-## Juegos o lógica de puntuación
+### Juegos o lógica de puntuación
 Verificar si dos cartas, fichas o elementos suman un puntaje objetivo.
 
 ---
