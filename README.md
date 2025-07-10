@@ -30,7 +30,6 @@ necesarias, siempre y cuando las especifique.
     Input: nums = [1,2,4,4], requiredSum = 8
     Output: True
 
----
 
 ## Se supone lo siguiente:
 
@@ -39,6 +38,7 @@ necesarias, siempre y cuando las especifique.
 - El mismo numero no puede sumarse consigo mismo, a menos que aparezca mas de una vez (por ejemplo '[4,4]' lo cual nos llevaria a 4+4=8).
 - Si hay multiples pares que sean validos, solamente bastara con detectar uno solo.
 
+---
 
 ## Resoluciones
 
@@ -90,6 +90,7 @@ Desde terminal, previamente con Python instalado, ejecutar el siguiente comando:
 ```bash
 python pruebas.py
 ```
+---
 
 ### Mariano Vergniaud
 ### FullStack Developer.
