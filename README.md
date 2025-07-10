@@ -91,7 +91,7 @@ Desde terminal, previamente con Python instalado, ejecutar el siguiente comando:
 python pruebas.py
 ```
 
-Mariano Vergniaud
-FullStack Developer.
-📧 mariano.unla@gmail.com
-💼 https://www.linkedin.com/in/marianovergniaud/
+# Mariano Vergniaud
+# FullStack Developer.
+# 📧 mariano.unla@gmail.com
+# 💼 https://www.linkedin.com/in/marianovergniaud/
