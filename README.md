@@ -46,7 +46,7 @@ Se opto por el desarrollo de **dos versiones independientes** del algoritmo, sig
 
 
 
-##  Versión 1: Fuerza Bruta
+##  Versión 1
 
 📄 Archivo: `desafio_pun_uno.py`
 
@@ -89,7 +89,7 @@ Desde terminal, previamente con Python instalado, ejecutar el siguiente comando:
 
 ```bash
 python pruebas.py
-
+```
 
 Mariano Vergniaud
 FullStack Developer.
