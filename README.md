@@ -46,18 +46,18 @@ Se opto por el desarrollo de **dos versiones independientes** del algoritmo, sig
 
 
 
-##  Versión 1
+##  Version 1
 
 📄 Archivo: `desafio_pun_uno.py`
 
-- Recorre todos los pares posibles con doble bucle.
+- Recorre todos los pares posibles con `doble bucle`.
 - Comparación directa entre cada par de elementos.
 - ✅ Fácil de implementar.
 - ❌ Ineficiente en listas grandes (complejidad **O(n²)**).
 
 
 
-## Versión 2: Optimizada
+## Version 2: Optimizada
 
 📄 Archivo: `desafio_pun_uno.py`
 
