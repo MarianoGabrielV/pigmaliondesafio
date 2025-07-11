@@ -75,8 +75,7 @@ Este algoritmo podría utilizarse en sistemas como:
 ### Control de pagos duplicados en contabilidad
 Antes de aprobar una transferencia, verificar si ya existen dos pagos anteriores que suman el mismo monto, para evitar fraudes.
 
-### Recomendaciones en e-commerce
-Detectar combinaciones de productos que sumen exactamente al presupuesto disponible del usuario.
+
 
 ### Juegos o lógica de puntuación
 Verificar si dos cartas, fichas o elementos suman un puntaje objetivo.
@@ -85,10 +84,10 @@ Verificar si dos cartas, fichas o elementos suman un puntaje objetivo.
 
 ## Ahora, como lo ejecuto?
 
-Desde terminal, previamente con Python instalado, ejecutar el siguiente comando:
+Desde terminal de su entortno de desarrollo, previamente con Python instalado, ejecutar el siguiente comando:
 
 ```bash
-python pruebas.py
+python elnombredelarchivo.py
 ```
 ---
 
