@@ -1,37 +1,40 @@
-# existe una coincidencia.
+# existe_una_coincidencia
+
 """
     Versión 1: Fuerza bruta
-    Busca si existe un par de números cuya suma sea igual al objetivo.
-    Recorre todos los pares posibles sin optimizar recursos.
+    Verifica si existe al menos un par de numeros en la lista cuya suma sea igual al numero solicitado.
+    Recorre todos los pares posibles de la lista sin optimizacion, utilizando dos bucles anidados.
 
-    :param lista_numeros: Lista de números enteros
-    :param suma_objetivo: Valor objetivo a alcanzar con la suma de dos elementos
-    :return: True si existe un par con esa suma, False en caso contrario
+    Parametros:
+    lista_numeros: Lista de numeros enteros
+    suma_a_llegar: Numero que se desea alcanzar sumando dos elementos de la lista
+    True: Si existe al menos un par con esa suma.
+    False: En caso contrario.
 """
 
-def existe_una_coincidencia(lista_numeros, suma_a_llegar):  # Esta funcion toma 2 argumentos, La lista de numeros 
-                                                            # y el numero al que hay que llegar
- 
-    cantidad_a_recorrer = len(lista_numeros) # Calcula la cantidad de elementos de la lista y la guarda en la variable cantidad_a_recorrer.
-    for indice_primero in range(cantidad_a_recorrer): # Inicia un bucle que recorre la lista desde el primer elemento (indice_primero). Sirve para tomar uno de los dos números del par.
-        for indice_segundo in range(indice_primero + 1, cantidad_a_recorrer):
+def existe_una_coincidencia(lista_numeros, suma_a_llegar):
+    cantidad_elementos = len(lista_numeros)  # Cantidad total de elementos en la lista
+
+    for indice_primero in range(cantidad_elementos):
+        for indice_segundo in range(indice_primero + 1, cantidad_elementos):
+            # Se toman los dos numeros correspondientes a las posiciones actuales
             primer_numero = lista_numeros[indice_primero]
             segundo_numero = lista_numeros[indice_segundo]
+
             if primer_numero + segundo_numero == suma_a_llegar:
+                # Si encontramos un par que sume el numero al cual queremos llegar, retornara True
                 return True
+
+    # Si se recorren todos y no hay coincidencias, retornara False
     return False
 
 
+# Ejemplos de uso para verificar el correcto funcionamiento
 if __name__ == "__main__":
     numeros_ejemplo = [1, 4, 3, 9]
     objetivo = 8
-    print(existe_una_coincidencia(numeros_ejemplo, objetivo))  # Esperado: False""
+    print(existe_una_coincidencia(numeros_ejemplo, objetivo))  # Esperado: False
 
     numeros_ejemplo = [4, 2, 1, 4]
     objetivo = 8
     print(existe_una_coincidencia(numeros_ejemplo, objetivo))  # Esperado: True
-
-
-
-
-    
