@@ -59,7 +59,7 @@ Se opto por el desarrollo de **dos versiones independientes** del algoritmo, sig
 
 ## Version 2: Optimizada
 
-📄 Archivo: `desafio_pun_uno.py`
+📄 Archivo: `desafio_pun_dos.py`
 
 - Recorre la lista una sola vez utilizando un `set`.
 - Calcula el complemento necesario en cada paso y verifica si ya apareció.
@@ -77,8 +77,21 @@ Antes de aprobar una transferencia, verificar si ya existen dos pagos anteriores
 
 
 
-### Juegos o lógica de puntuación
-Verificar si dos cartas, fichas o elementos suman un puntaje objetivo.
+
+---
+
+## Simulacion bancaria real
+
+Se incluye el archivo `simulacion_banco.py`, que demuestra el uso practico del algoritmo en un contexto de control de transferencias duplicadas.
+
+### Escenario simulado:
+- Transferencias anteriores registradas
+- Nueva transferencia por aprobar
+- El sistema detecta si existe un par previo que suma el mismo monto
+
+ La salida se presenta con mensajes claros y coloridos para facilitar la lectura en consola.
+
+ Este ejemplo contextualiza el problema real que el algoritmo resuelve.
 
 ---
 
