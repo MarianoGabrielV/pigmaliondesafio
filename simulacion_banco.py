@@ -2,7 +2,7 @@
 # IMPORTANTE LEER EL README.md PREVIO A SU UTILIZACION https://github.com/MarianoGabrielV/pigmaliondesafio
 from desafio_pun_dos import existe_una_coincidencia_optima
 
-# Opcional: formato de salida con colores
+# Esta seccion es opcional, se trata de un formato de salida con colores
 def mostrar_resultado(mensaje, es_exito=True):
     COLOR_VERDE = "\033[92m"
     COLOR_ROJO = "\033[91m"

@@ -1,10 +1,12 @@
+
+# IMPORTANTE LEER EL README.md PREVIO A SU UTILIZACION https://github.com/MarianoGabrielV/pigmaliondesafio
 # existe_una_coincidencia_optima
 
 """
     Version 2: Optimizada
     Verifica si existe al menos un par de numeros en la lista cuya suma sea igual al numero solicitado.
     Utiliza un conjunto para guardar los numeros ya analizados.
-    Asi, en lugar de revisar todos los pares posibles uno por uno, el algoritmo puede encontrar rápidamente si existe un numero que complete la suma deseada.
+    Asi, en lugar de revisar todos los pares posibles uno por uno, el algoritmo puede encontrar rapidamente si existe un numero que complete la suma deseada.
     Esto permite resolver el problema mucho mas rapido, incluso cuando la lista es muy larga.
 
     Parametros:
@@ -23,7 +25,7 @@ def existe_una_coincidencia_optima(lista_numeros, suma_a_llegar):
         if numero_faltante in numeros_vistos:
             return True # Si el numero que falta ya fue visto anteriormente, existe una coincidencia
         
-        numeros_vistos.add(numero_actual) # Si no se encontró aun el número complementario, guardamos el actual para futuras comparaciones
+        numeros_vistos.add(numero_actual) # Si no se encontro aun el numero complementario, guardamos el actual para futuras comparaciones
 
     return False # Si se recorrio toda la lista sin encontrar ningún par que sume el objetivo
 

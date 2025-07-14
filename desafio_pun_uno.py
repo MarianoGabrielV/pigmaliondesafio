@@ -3,7 +3,7 @@
 # existe_una_coincidencia
 
 """
-    Versión 1: Fuerza bruta
+    Versión 1
     Verifica si existe al menos un par de numeros en la lista cuya suma sea igual al numero solicitado.
     Recorre todos los pares posibles de la lista sin optimizacion, utilizando dos bucles anidados.
 
