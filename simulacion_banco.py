@@ -1,3 +1,5 @@
+
+# IMPORTANTE LEER EL README.md PREVIO A SU UTILIZACION https://github.com/MarianoGabrielV/pigmaliondesafio
 from desafio_pun_dos import existe_una_coincidencia_optima
 
 # Opcional: formato de salida con colores
@@ -9,8 +11,8 @@ def mostrar_resultado(mensaje, es_exito=True):
     print(f"{color}{mensaje}{RESET}")
 
 def simular_banco():
-    print("🏦 Simulación del Sistema de Validación Bancaria")
-    print("-------------------------------------------------")
+    print("--------------------------------------------------------------------------------------------------")
+    print("----- Simulacion del Sistema de Validacion Bancaria -----")
     print("Objetivo: Verificar si una nueva transferencia ya fue cubierta por dos anteriores.\n")
 
     # Transferencias previas registradas
@@ -20,14 +22,14 @@ def simular_banco():
     nuevo_monto = 5000
 
     # Mostrar datos
-    print(f"🔢 Transferencias anteriores registradas: {transferencias_previas}")
-    print(f"💰 Monto de nueva transferencia solicitada: {nuevo_monto}\n")
+    print(f"Transferencias anteriores registradas: {transferencias_previas}")
+    print(f"Monto de nueva transferencia solicitada: {nuevo_monto}\n")
 
     # Aplicar algoritmo optimizado
     if existe_una_coincidencia_optima(transferencias_previas, nuevo_monto):
         mostrar_resultado("⚠️ Alerta: ya existen dos transferencias que suman ese monto. Revisión manual sugerida.", es_exito=False)
     else:
-        mostrar_resultado("✅ La transferencia es válida. No se detectan duplicaciones.", es_exito=True)
+        mostrar_resultado("✅ La transferencia es valida. No se detectan duplicaciones.", es_exito=True)
 
 if __name__ == "__main__":
     simular_banco()

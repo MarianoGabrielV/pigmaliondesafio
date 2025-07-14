@@ -1,3 +1,5 @@
+
+# IMPORTANTE LEER EL README.md PREVIO A SU UTILIZACION https://github.com/MarianoGabrielV/pigmaliondesafio
 """
 comparar_tiempos.py
 
