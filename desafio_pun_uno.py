@@ -16,17 +16,14 @@ def existe_una_coincidencia(lista_numeros, suma_a_llegar):
     cantidad_elementos = len(lista_numeros)  # Cantidad total de elementos en la lista
 
     for indice_primero in range(cantidad_elementos):
-        for indice_segundo in range(indice_primero + 1, cantidad_elementos):
-            # Se toman los dos numeros correspondientes a las posiciones actuales
+        for indice_segundo in range(indice_primero + 1, cantidad_elementos): # Se toman los dos numeros correspondientes a las posiciones actuales
             primer_numero = lista_numeros[indice_primero]
             segundo_numero = lista_numeros[indice_segundo]
 
             if primer_numero + segundo_numero == suma_a_llegar:
-                # Si encontramos un par que sume el numero al cual queremos llegar, retornara True
-                return True
+                return True # Si encontramos un par que sume el numero al cual queremos llegar, retornara True
 
-    # Si se recorren todos y no hay coincidencias, retornara False
-    return False
+    return False # Si se recorren todos y no hay coincidencias, retornara False
 
 
 # Ejemplos de uso para verificar el correcto funcionamiento

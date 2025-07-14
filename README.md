@@ -94,6 +94,16 @@ Se incluye el archivo `simulacion_banco.py`, que demuestra el uso practico del a
  Este ejemplo contextualiza el problema real que el algoritmo resuelve.
 
 ---
+# Extra
+
+##  Comparacion de tiempos de ejecucion
+
+Se crea el archivo `comparar_tiempos.py` para medir cuanto tarda en ejecutarse cada una de las dos versiones del desafio:
+
+- **Version 1** (`desafio_pun_uno.py`): recorre todos los pares posibles.
+- **Version 2** (`desafio_pun_dos.py`): utiliza un conjunto (set) para resolver el problema mas rápido.
+
+El programa genera una lista grande de números y mide cuánto tarda cada función en encontrar (o no) una coincidencia. Al final muestra cual fue mas rapida y por cuanto.
 
 ## Ahora, como lo ejecuto?
 

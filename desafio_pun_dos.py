@@ -21,14 +21,11 @@ def existe_una_coincidencia_optima(lista_numeros, suma_a_llegar):
         numero_faltante = suma_a_llegar - numero_actual  # Calculamos cuanto falta para llegar a la suma objetivo
 
         if numero_faltante in numeros_vistos:
-            # Si el numero que falta ya fue visto anteriormente, existe una coincidencia
-            return True
+            return True # Si el numero que falta ya fue visto anteriormente, existe una coincidencia
+        
+        numeros_vistos.add(numero_actual) # Si no se encontró aun el número complementario, guardamos el actual para futuras comparaciones
 
-        # Si no se encontró aun el número complementario, guardamos el actual para futuras comparaciones
-        numeros_vistos.add(numero_actual)
-
-    # Si se recorrio toda la lista sin encontrar ningún par que sume el objetivo
-    return False
+    return False # Si se recorrio toda la lista sin encontrar ningún par que sume el objetivo
 
 
 # Ejemplos de uso para verificar el correcto funcionamiento
