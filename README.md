@@ -67,6 +67,20 @@ Se opto por el desarrollo de **dos versiones independientes** del algoritmo, sig
 - ✅ Ideal para listas grandes.
 
 ---
+# IMPORTANTE:
+
+## Descripcion de los archivos que se van a encontrar:
+
+Estos archivos contienen los ejercicios solicitados:
+
+        desafio_pun_uno.py
+        desafio_pun_dos.py
+
+Como contenido extra se agregaron la comparacion de tiempo entre los solicitados y un caso de simulacion de uso:
+
+        comparacion_tiempos.py
+        simulacion_banco.py
+
 
 ## Contexto real de aplicación
 
@@ -114,7 +128,7 @@ python elnombredelarchivo.py
 ```
 ---
 
-### Mariano Vergniaud
+### Mariano Gabriel Vergniaud
 ### FullStack Developer.
 ### 📧 mariano.unla@gmail.com
 ### 💼 https://www.linkedin.com/in/marianovergniaud/
